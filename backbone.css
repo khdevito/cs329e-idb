@@ -1,0 +1,158 @@
+/* File: index.css
+   Author: Russell Sherrill
+   Date Created: 19 Sept 2016
+   Date Modified: 19 Sept 2016
+
+*/
+
+html{
+	margin:2px;
+	padding:2px;v
+}
+
+body{
+	background-color: #193366;
+}
+
+.head{
+	font-family: sans-serif;
+	position: absolute;
+	top:0px;
+	margin-left: 50px;
+	width: 1200px;
+	color:white;
+	background-color: #3D6271;
+	height:75px;
+
+
+}
+
+.share{
+	position: relative;
+	color:white;
+	top: -9px;
+	word-spacing: 1px;
+	margin-left: 5px;
+	font-size: 90%;
+
+	
+}
+.letus{
+	top: -28px;
+	position: relative;
+	margin-left: 5px;
+	font-size: 80%;
+	word-spacing: 1px;
+}
+
+.toolbar{
+	color: #1aa3ff;
+	position: absolute;
+	top:75px;
+	width:1200px;
+	margin-left: 50px;
+	background-color: #99b3e6;
+	height: 40px;
+	font-size: 150%;
+
+}
+
+.options{
+	position: relative;
+	top:7px;
+	font-family: sans-serif;
+	font-size: 90%;
+	word-spacing: 1px;
+	margin-left: 5px;
+
+}
+
+.description{
+	position: absolute;
+	background-color: white;
+	color:black;
+	top:130px;
+	margin-left: 50px;
+	width: 1200px;
+	height:900px;
+}
+
+.destitle{
+	position:relative;
+	margin-left: 10px;
+	font-family: sans-serif;
+	font-size: 75%;
+	top: -10px;
+
+}
+
+.line1{
+	position: relative;
+	margin-left: 10px;
+	top:-25px;
+	margin-right: 10px;
+}
+
+.image{
+	top:-10px;
+	margin-left: 8px;
+	margin-right: 690px;
+	position: relative;
+	border-style: double;
+	border-width: 1px;
+	
+}
+
+.related{
+	position:relative;
+	margin-left: 10px;
+	font-family: sans-serif;
+	font-size: 75%;
+	top: 5px;
+}
+.line2{
+	position: relative;
+	margin-left: 10px;
+	top:-10px;
+	margin-right: 10px;
+}
+
+.reviews{
+	position:relative;
+	font-family: sans-serif;
+	font-size: 75%;
+	
+}
+.line3{
+	position: relative;
+	top: -10px;
+	
+}
+
+.review-text1{
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.line3{
+
+
+}
+
+.footer-text{
+	position: relative;
+	color: white;
+	word-spacing: 2px;	
+	top:10px;
+	margin-left: 10px;
+}
+
+.footer{
+	position: absolute;
+	background-color: #3D6271;
+	top:1050;
+	margin-left: 50px;
+	width: 1200px;
+	height: 70;
+	word-spacing: 2px;
+}
