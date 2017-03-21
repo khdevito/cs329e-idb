@@ -5,9 +5,6 @@ html{
 	padding:2px;v
 }
 
-body{
-	background-color: #FFF;
-}
 
 .head{
 	font-family: sans-serif;
@@ -179,4 +176,57 @@ a{
     margin-right: auto;
 	width: 20%;
 }
+		body {
+			background-image: url(Venues.jpg);
+		}
+		.button {
+			text-align: center;
+		}
+		a.button:link, a.button:visited {
+		    background-color: #f44336;
+		    color: white;
+		    padding: 8px 16px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+	}
+
+
+		a.button:hover, a.button:active {
+		    background-color: white;
+		    color: navy;
+	}
+		ul {
+		    text-align: center;
+		    list-style-type: none;
+		    font-size: 5em
+		    margin-left: 0;
+		    padding: 0;
+		    width: 400px;
+		    border: 1px solid #555;
+
+		    width: 25%;
+		    background-color: #f1f1f1;
+		    height: 100%; /* Full height */
+
+		}
+		li.last-child {
+		    border-bottom: none;
+		}
+		li a {
+			margin-left: 50; 
+		    display: block;
+		    text-align: center;
+		    font-size: 15px
+		    color: powderblue;
+		    padding: 8px 16px;
+		    text-decoration: none;
+		    border-bottom: 1px solid #555;
+		}
+
+		/* Change the link color on hover */
+		li a:hover {
+		    background-color: powderblue;
+		    color: white;
+		}
 
