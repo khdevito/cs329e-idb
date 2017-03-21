@@ -1,16 +1,10 @@
 <DOCTYPE! HTML>
 <html>
-  <head>
-    <link rel = "stylesheet" title = "basic style" type = "text/css" href = "./backbone.css" media = "all"/>
+<head>
+<link rel = "stylesheet" title = "basic style" type = "text/css" href = "./backbone.css" media = "all"/>
 	<title>Jam On!</title>
-  </head>
-  <body>
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Jam On!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      </div>
-    </div>
+</head>
+<body>
 	<div class = "head">
 		<div class = "share">
 		<h1><a href="./index.html">Jam Austin!</a></h1>
@@ -36,21 +30,23 @@
 	<h2>Members</h2>
 	</center>
 	<br>
+	<div class = "background">
+		<div class = "layer">
+			<div class = "members" float: middle>
+				<center>
+				<h3>Reshma Ahuja</h3>
+				<img class="img_circle" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAANSAAAAJGIwZjNiY2I2LWZkNjktNDhlYy05MzNjLTRiOTIzODk5ZWNlNQ.jpg" alt="Reshma">
+				</center>
+				<br>
+				<br>
+				Bio:
+				<br>
+				Major Responsibilities:
+			
+			</div>
 
-	<div class = "members" float: middle>
-		<center>
-		<h3>Reshma Ahuja</h3>
-		<img class="img_circle" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAANSAAAAJGIwZjNiY2I2LWZkNjktNDhlYy05MzNjLTRiOTIzODk5ZWNlNQ.jpg" alt="Reshma">
-		</center>
-		<br>
-		<br>
-		Bio:
-		<br>
-		Major Responsibilities:
-	
+		</div>
 	</div>
-
-	
 
 	<div class = "footer">
 		<div class = "footer-text">
@@ -59,7 +55,7 @@
 			<a href="#">Search</a>
 			<br>
 			<br>
-			<em></em>
+			<em>Copyright &copy; 2013 Share Your Travels</em>
 		</div>
 	</div>
 
