@@ -130,7 +130,7 @@ html{
 
 .footer-text{
 	position: relative;
-	color: white;
+	color: #2222;
 	word-spacing: 2px;	
 	top:10px;
 	margin-left: 10px;
@@ -138,7 +138,7 @@ html{
 
 .footer{
 	position: absolute;
-	background-color: #3D6271;
+	background-color: #22222;
 	top: 1050;
 	left: 0;
 	width: 100%;
