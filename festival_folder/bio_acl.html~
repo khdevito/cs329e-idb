@@ -9,13 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pushmonkey</title>
+    <title>Austin City Limits</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../biofolder/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link href="../biofolder/css/one-page-wonder.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -67,7 +67,7 @@
     <header class="header-image">
         <div class="headline">
             <div class="container">
-                <h1>Pushmonkey</h1>
+                <h1>Austin City Limits Music Festival</h1>
             </div>
         </div>
     </header>
@@ -79,9 +79,9 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="aboutpushmonkey.jpg">
+            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="acl_1.jpg">
             <h2 class="featurette-heading">About
-            <span class="text-muted">the Pushmonkeys</span>
+            <span class="text-muted">Austin City Limits</span>
             </h2>
             <p class="lead">Pushmonkey is an American rock band from Austin, Texas. Originally known as Billy Pilgrim, they first changed their name to Mad Hatter and later to just Hatter. The band experienced minor radio success with the song "Handslide" from their self-titled album. They appeared on Ozzfest in 1999 in support of the album, as well as Woodstock '99. In 2007, the band won the first FameCast.com Battle of the Bands contest.</p>
         </div>
@@ -90,7 +90,7 @@
 
         <!-- Second Featurette -->
         <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" height = "400" width="400" src="memberspushmonkey.jpg" >
+            <img class="featurette-image img-circle img-responsive pull-left" height = "400" width="400" src="acl_2.jpg" >
             <h2 class="featurette-heading">Current
                 <span class="text-muted">Members</span>
             </h2>
@@ -105,7 +105,7 @@
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="songspushmonkey.jpg">
+            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="acl_3.jpg">
             <h2 class="featurette-heading">EPs/singles/promos
                 <span class="text-muted">That you'll love</span>
             </h2>
