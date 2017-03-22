@@ -1,6 +1,6 @@
 
 .layer {
-   height: 70%;
+   height: 80%;
 }
 
 .stats {
@@ -8,7 +8,7 @@
 }
 
 .container-fluid {
-	background-color: rgba(240, 248, 255, 0.46);
+	background-color: rgba(240, 248, 255, 0.35);
 }
 
 /* debugging */
