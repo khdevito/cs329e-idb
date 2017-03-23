@@ -108,14 +108,16 @@
 			<div class="members" style="padding-left:15px; padding-right:15px; font-size:120%;">
 				<center>
 				<h3>Thomas Wilczek</h3>
-				<img class="img_circle" src="tommy_profile.jpg" alt="Thomas">
+				<img class="img_circle" src="tommy_profile.png" alt="Thomas">
 				</center>
 				<br>
 				<br>
 				<p>
 					<b>Bio:</b>
+					Bootstrap is my Bible
 					<br>
-					<b>Major Responsibilities:</b>
+					<b>Major Responsibilities: </b>
+					Splash page, formatted bio pages, band bio pages
 					<br>
 					<b>Commits: # | Issues: #</b>
 				</p>
@@ -129,19 +131,12 @@
 				<br>
 				<br>
 				<p>
-<<<<<<< HEAD
-					<b>Bio:</b>
-					<br>
-					Enjoys long walks on the beach and sleeping in.
-					<br>
-					<b>Major Responsibilities:</b>
-					<br>
-					 Set up network of html pages and did outline for paper.
-=======
+
+					
 					<b>Bio:</b> Enjoys long walks on the beach and sleeping in.
 					<br>
 					<b>Major Responsibilities:</b> Set up network of html pages and did outline for paper.
->>>>>>> c176960e9375653721e5ef6dc44166d843b622fc
+
 					<br>
 					<b>Commits:</b> 15 <b>| Issues:</b> 5
 				</p>
@@ -187,28 +182,17 @@
 			<div class="col-md-4">
 				<h2>Tools</h2>
 				<h4>
-					place holder
+					Slack
 					<br>
-					place holder
+					Github
 					<br>
-					place holder
+					Bootstrap
 				</h4>
 			</div>
 		</div>
 	</div>
 
-		<div class = "footer">
-			<div class = "footer-text">
-				<a href="./splash.html">Home</a> |
-				<a href="./page2.html">About</a> |
-				<a href="./page3.html">Bands</a> |
-				<a href="./page4.html">Venues</a> |
-				<a href="./page5.html">Festivals</a>
-				<br>
-				<br>
-				<em></em>
-			</div>
-		</div>
+
 	</div>		
 	
 </body>
