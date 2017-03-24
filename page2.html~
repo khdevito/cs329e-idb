@@ -78,10 +78,13 @@
 				<br>
 				<p>
 					<b>Bio:</b> 
+					<br> 
+					Dancer and traveler. 
 					<br>
 					<b>Major Responsibilities:</b> 
+					Bands, Festivals, and Venue Pages, CSS formatting, Technical Report
 					<br>
-					<b>Commits: # | Issues: #</b>
+					<b>Commits: 6 | Issues: 3</b>
 				</p>	
 			</div>
 
@@ -101,7 +104,7 @@
 					<br>
 					About Page & Festivals Page
 					<br>
-					<b>Commits: # | Issues: #</b>
+					<b>Commits: 12 | Issues: 5</b>
 				</p>				
 			</div>
 
@@ -119,7 +122,7 @@
 					<b>Major Responsibilities: </b>
 					Splash page, formatted bio pages, band bio pages
 					<br>
-					<b>Commits: # | Issues: #</b>
+					<b>Commits: 4 | Issues: 10</b>
 				</p>
 			</div>
 
@@ -135,10 +138,10 @@
 					
 					<b>Bio:</b> Enjoys long walks on the beach and sleeping in.
 					<br>
-					<b>Major Responsibilities:</b> Set up network of html pages and did outline for paper.
+					<b>Major Responsibilities:</b> Set up network of HTML pages, worked on CSS and did outline for paper.
 
 					<br>
-					<b>Commits:</b> 15 <b>| Issues:</b> 5
+					<b>Commits:</b> 16 <b>| Issues:</b> 3
 				</p>
 			</div>
 
@@ -150,11 +153,11 @@
 				<br>
 				<br>
 				<p>
-					<b>Bio:</b>
+					<b>Bio:</b> A not-so-boring aspiring physician looking to solve problems in healthcare with technology!
 					<br>
-					<b>Major Responsibilities:</b>
+					<b>Major Responsibilities: </b>The Venues pages and working on formal report
 					<br>
-					<b>Commits: # | Issues: #</b>
+					<b>Commits:</b> 2 | <b>Issues:</b> 4
 				</p>
 			</div>
 		</div>
@@ -165,7 +168,7 @@
 			<div class="col-md-4">
 				<h2>Stats</h2>
 				<h4>
-					Total no. of issues: 12
+				        Total no. of issues: 25
 					<br>
 					<a href="https://github.com/khdevito/khdevito.github.io/issues">GitHub Issue Tracker</a>
 					<br>
