@@ -1,3 +1,28 @@
+commit ffae82a86735829ec12e5c9f3c50ad104092d7e6
+Author: Thota Palivela <tpalivela@Thotas-MacBook-Pro.local>
+Date:   Thu Mar 23 21:39:53 2017 -0500
+
+    final page 4 changes
+
+commit d64ef28aaafb1490a03b005974a66e8517cb3c62
+Merge: 6120a23 0a61734
+Author: Amar Sheth <nashowns@cs.utexas.edu>
+Date:   Thu Mar 23 21:22:24 2017 -0500
+
+    ter' of https://github.com/khdevito/khdevito.github.io
+
+commit 6120a239a60a86420a3bcc8eac7210fd28d0a5c2
+Author: Amar Sheth <nashowns@cs.utexas.edu>
+Date:   Thu Mar 23 21:21:54 2017 -0500
+
+    adding log
+
+commit 0a61734a22ad621fed17231175fac8691fbd025a
+Author: Thota Palivela <tpalivela@Thotas-MacBook-Pro.local>
+Date:   Thu Mar 23 21:19:25 2017 -0500
+
+    adding Diagram.png
+
 commit d520b7cf8714d87995c2bc7ab938114a2c6d76a6
 Author: Amar Sheth <nashowns@cs.utexas.edu>
 Date:   Thu Mar 23 21:03:49 2017 -0500
