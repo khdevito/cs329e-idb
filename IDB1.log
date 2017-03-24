@@ -1,0 +1,770 @@
+commit d520b7cf8714d87995c2bc7ab938114a2c6d76a6
+Author: Amar Sheth <nashowns@cs.utexas.edu>
+Date:   Thu Mar 23 21:03:49 2017 -0500
+
+    fixed about page
+
+commit 5fc1f1b6cd562bb3b2c7628d5bfc45f937458176
+Author: Amar Sheth <nashowns@cs.utexas.edu>
+Date:   Thu Mar 23 20:44:16 2017 -0500
+
+    fixed the venues pages
+
+commit 0213e282b2df6dcdb8ceff18f93e9ed241df649c
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Thu Mar 23 20:33:16 2017 -0500
+
+    Update page2.html
+
+commit 6ae61c0bbadab5876ac4c0cb0883e8fb820f56d9
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Thu Mar 23 20:13:54 2017 -0500
+
+    Update bio_skylarklounge.html
+
+commit 1fc2a5b49bf19e53c3c192c8105684fc8d3d8c26
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Thu Mar 23 20:13:06 2017 -0500
+
+    Update page2.html
+
+commit 5c1a8e8e7336411ffe4ae364f3db6cce7d4012b7
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Thu Mar 23 19:32:52 2017 -0500
+
+    finished spiderhouse venue bio
+
+commit 865efe251071382c18879e5aa4d290973ab5c591
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Thu Mar 23 19:14:44 2017 -0500
+
+    Amars two venues
+
+commit a5b86a8474d832d09731e0a153b35221e8badf6c
+Author: Thota Palivela <tpalivela@Thotas-MacBook-Pro.local>
+Date:   Thu Mar 23 18:08:23 2017 -0500
+
+    about page bio
+
+commit 9063334bb55bc06e3bdea31b2049abfa49689e10
+Author: Thota Palivela <tpalivela@Thotas-MacBook-Pro.local>
+Date:   Thu Mar 23 16:37:14 2017 -0500
+
+    bio/responsibilities for Reshma
+
+commit 9fe5cf87780f5a9791e7723da3d1894be2a2da11
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Thu Mar 23 13:13:15 2017 -0500
+
+    Update number of total issues for stats
+
+commit 72d6b3ad2cd88cd389ad95df5bbee48f0e2f458f
+Merge: 7f3e243 5218f0e
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Thu Mar 23 13:09:36 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/cs329e-idb
+
+commit 7f3e2433049cb673f9034a3aa347319b5a3d7450
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Thu Mar 23 13:09:00 2017 -0500
+
+    Added tools to about page
+
+commit 5218f0ef84e61cce385eefeb4a4eedf0e49b7e91
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Thu Mar 23 10:03:21 2017 -0500
+
+    deleted header from about page, edited tommy's profile pic
+
+commit 3a4bbd1ca12ba599164493b3b79ec1e1f3840c5c
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Wed Mar 22 17:26:43 2017 -0500
+
+    Continued to fix weird bio issue
+
+commit 8688d26fcbe76aa3ecfdc23a0a1795255b7c115d
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Wed Mar 22 17:25:28 2017 -0500
+
+    Fixed weird bio thing
+
+commit 00445caf17db27b9283f3802736a280117fea9a4
+Merge: 77776aa 31e4258
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Wed Mar 22 17:23:46 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/cs329e-idb
+
+commit 77776aadb93ba0bb0c4bcaedcc6e795ab4a6b77d
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Wed Mar 22 17:23:26 2017 -0500
+
+    Created bio pages for venues, created hyperlinks on venue page
+
+commit 31e4258fce131751dfdbcccb96457e9489d03298
+Merge: 23ebda0 c176960
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Wed Mar 22 17:11:57 2017 -0500
+
+    merge
+
+commit 23ebda004f1deab279a73955ad252a38a498ce7d
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Wed Mar 22 17:11:01 2017 -0500
+
+    Personal bio
+
+commit c176960e9375653721e5ef6dc44166d843b622fc
+Merge: 8395cf6 07eb193
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Wed Mar 22 17:09:15 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/cs329e-idb
+
+commit 8395cf674580141bbf3aea856dd16f21b36653b3
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Wed Mar 22 17:07:27 2017 -0500
+
+    Fixed issues with text on about page, added padding
+
+commit 07eb1935ee2d7d8fac1dc0bae0c3b77047b3faca
+Merge: 3eca80c ac94267
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Wed Mar 22 16:56:56 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/cs329e-idb
+
+commit 3eca80c8b2d1f818a7c002e3ac91c1ac0ea71ac3
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Wed Mar 22 16:56:51 2017 -0500
+
+    Closes #9. SXSW instance finished.
+
+commit ac94267cdf056dd18cd904cb4a3f886eb22c6ec6
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Wed Mar 22 16:49:12 2017 -0500
+
+    Update bio_fff.html
+
+commit 6ca2e9f90da42a450e7599e9ad0bf0af633b1bae
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Wed Mar 22 16:46:58 2017 -0500
+
+    Fixed toolbar issues between pages, removed footer on some pages, Festivals still messed up
+
+commit b50fbcbf1b5cec0354edc096ed3d133df3e320a4
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Wed Mar 22 16:19:53 2017 -0500
+
+    Updated pages that contained vestigial toolbar to accomodate for bootstrap
+
+commit d157af49381356ddacd22820f49a7a3147851a4b
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Wed Mar 22 16:11:04 2017 -0500
+
+    Updated about and festivals pages to match others
+
+commit e8485835ac9b00b7e4a6ad9ce4f0c651e30adc9e
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Wed Mar 22 12:20:44 2017 -0500
+
+    References #9. FFF instance finished.
+
+commit 330990503bf320ed03639900fa323bb896a50966
+Merge: 23f3fec e9379af
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Wed Mar 22 11:54:31 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/cs329e-idb
+
+commit 23f3fec89e0acd2a8828a60f7aa4c3d4f43a215e
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Wed Mar 22 11:54:26 2017 -0500
+
+    References #9. ACL instance finished.
+
+commit e9379af9fd45f7a21034db91baa7c5ffae2a635f
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Wed Mar 22 09:05:07 2017 -0500
+
+    Working on toolbars
+
+commit c65fe10445918c8c9964de55ab8a9c244a77f795
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Tue Mar 21 23:26:29 2017 -0500
+
+    fixed toolbar for bands page
+
+commit 97d49b2c5f73d30c6162aae3f2f8c0edc535f832
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Tue Mar 21 23:19:39 2017 -0500
+
+    fixed small problems with band bios
+
+commit 709657848b9727c29a70def84deb6829671036c4
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Tue Mar 21 23:16:07 2017 -0500
+
+    Double checked and fixed the band bios
+
+commit 11422e33c8d454eac2e95dee623d686ea39b1d8d
+Merge: 2ebe774 68cb136
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Tue Mar 21 23:14:53 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/khdevito.github.io
+
+commit 2ebe7741721289e1b3e5dafdc3f14b040c0e196a
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Tue Mar 21 23:14:45 2017 -0500
+
+    completed all band bios
+
+commit 68cb1366eb591a6e9664c7032d48c9916ada7719
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 23:07:29 2017 -0500
+
+    Festival Links
+
+commit e48e72d1e1313f128244caeefe486686a73ab892
+Merge: 64f92e4 0011857
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 23:04:06 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/cs329e-idb
+
+commit 00118577878df7eed8820646b8a23212f807b32e
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Tue Mar 21 23:02:35 2017 -0500
+
+    completed the black angels band bio
+
+commit 64f92e482917a07673bdbb8a94e548cfc5f48777
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 23:00:05 2017 -0500
+
+    Updating Festivals Pages
+
+commit a9d4fcc0df29a2ada334ce3175dc937f558569bc
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 22:59:47 2017 -0500
+
+    Added pictures to SXSW Page
+
+commit 22e12430efc888b86f169d1196a9eb52b75ff8a4
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 22:59:26 2017 -0500
+
+    Added pictures to Fun Fun Fun Fest Page
+
+commit a7bbe1e69c542da71c8cf38277e086613dc6c0e6
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 22:36:23 2017 -0500
+
+    Created page for ACL festival. References #9
+
+commit e43c023075fe1d64364214887d2e05aa5f8584a1
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 21:29:49 2017 -0500
+
+    Add info to Festival tables
+
+commit 3239a0946891b8b3766efec69a643f04b0b13456
+Merge: 82f8fee d1dd25b
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 21:04:17 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/cs329e-idb
+
+commit 82f8feedb54a57d2cf76203871ecfff155401480
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 21:03:12 2017 -0500
+
+    More work on about page
+
+commit d1dd25b349506f3e97fea763d00e28cb2b856e3e
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Tue Mar 21 20:58:04 2017 -0500
+
+    Working on another band
+
+commit b51f6d0ad9756bc353d7be3015af7b5e767fe601
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 20:35:58 2017 -0500
+
+    Create style sheet for about page
+
+commit 06cfb1d59b021a82c0d97739cafd2eee7641aede
+Merge: 4f91dbf 5edaa16
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 18:42:43 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/cs329e-idb
+
+commit 4f91dbf3cdd44d233c37a4c12d2a294b3a4ed728
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 18:42:32 2017 -0500
+
+    Format Footer Text
+
+commit 5edaa163c5a0e59b16e718ead7dfc82eed0b87bf
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Tue Mar 21 18:37:51 2017 -0500
+
+    fixed home button on push monkey page
+
+commit 6be850def56642548bf20c490f89373cfb087085
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 18:00:36 2017 -0500
+
+    I think I fixed it
+
+commit f8400ce87e91117343b7e1970c4efa7866a1757d
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 17:56:40 2017 -0500
+
+    still fixing.. it works on my laptop but not online
+
+commit 7fa1be92a64cc1e354ad2917cd0d0432c304d45b
+Merge: 42571b7 8328c19
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 17:49:41 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/khdevito.github.io
+
+commit 42571b799952257a1a2e6e8ee024ad9050137e7c
+Merge: c527c24 b129627
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 17:45:25 2017 -0500
+
+    Merge branch 'dev' of https://github.com/khdevito/khdevito.github.io into dev
+
+commit c527c24c306fa4fe03440fb370a0ebe561de4a71
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 17:44:53 2017 -0500
+
+    maybe fixed it?
+
+commit 8328c19a09d32f19031412cb2df670b61250460a
+Merge: 023e99a b129627
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 16:55:34 2017 -0500
+
+    merge dev
+
+commit 023e99ab68f0fb61b2fa2ac8e5a5866fce89fd95
+Merge: 681f8ea c0e1bcb
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 16:54:57 2017 -0500
+
+    merge
+
+commit b129627f481ac25869439c3c3175a5215471d952
+Merge: 6baf460 3f62f08
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 16:54:08 2017 -0500
+
+    merge
+
+commit 3f62f087836cc973ef5eb80128a0426cc531f4d0
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 16:48:11 2017 -0500
+
+    this might work, but it's messy, bios
+
+commit 6d0aec0f63335bc1d25dd71b0716c68304b50bd0
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 16:45:33 2017 -0500
+
+    still trying to fix these bios
+
+commit 6baf460612524eafb727761f922b76bf8d371734
+Merge: 681f8ea c0e1bcb
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 16:45:23 2017 -0500
+
+    Ignore ds store.
+
+commit 82909d5495ac7bfab1d8a85da0e7be7e60d928ca
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 16:43:21 2017 -0500
+
+    still trying to fix bios
+
+commit 56f002261dfba27669601d8a5684bd6d8e0eb1ca
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 16:40:28 2017 -0500
+
+    fixing bio page
+
+commit 681f8eabb2a8bc8b0ec3faf405a62623da404247
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 16:39:32 2017 -0500
+
+    Formatting About page
+
+commit c0e1bcb17b0e81568032aab92575b0e8828ca557
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 16:35:40 2017 -0500
+
+    Completed first bio page
+
+commit bf5bead27f8112ae01abbf6c89da337fe51db409
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 16:21:57 2017 -0500
+
+    Added Russell and Amar's pics
+
+commit c7b767bde4db7c588c7aa5d53d6674fbcd564f29
+Merge: 6b9cc04 fb25723
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 15:58:11 2017 -0500
+
+    Merge branch 'dev'
+
+commit fb257232fa58df948d62a4218d4cdb43e404eb3a
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 15:57:10 2017 -0500
+
+    Add Kristian and Tommy's profile picture to About page. References #15.
+
+commit 3752986e62e97d022d26832b702e361eebb744b4
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 15:56:03 2017 -0500
+
+    Update styling rules for profile pictures
+
+commit 6b9cc04da7d17824a87c7f6d280e417c724a477e
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 15:50:17 2017 -0500
+
+    changed tab name
+
+commit 89a08dd942cbbd36f8f924f873b72be008ded664
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 15:45:28 2017 -0500
+
+    changed splash page image
+
+commit efbdede04775837c484984809433edfcc4677008
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-111-117.public.utexas.edu>
+Date:   Tue Mar 21 15:41:49 2017 -0500
+
+    completed splash page
+
+commit 19e3156de4df8c1f09205eaea5a936440c5b98f7
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 15:39:28 2017 -0500
+
+    Restore to master
+
+commit 7610d1852c735c73c232fd804a5f6332aa54aa3f
+Merge: 4bfbdca 1cff61b
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 15:37:47 2017 -0500
+
+    Merge branch 'master' into dev
+
+commit 4bfbdca4c276890435ea2571b7dd9b36bee85ace
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 15:21:28 2017 -0500
+
+    Add image to top
+
+commit 1cff61bed61266e7f50b81a9d1072a16b8b8a205
+Author: Thota Palivela <tpalivela@wireless-10-147-219-109.public.utexas.edu>
+Date:   Tue Mar 21 15:12:05 2017 -0500
+
+    committing formatting + info additions
+
+commit a9dfe5022762d0bf9665b348208ddfcb3b397b6a
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 15:08:05 2017 -0500
+
+    Add jumbotron
+
+commit 9f8a24924b5e8c4b9090c6cc2fb809181b0c5e1e
+Merge: f2952f3 34da05a
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Tue Mar 21 14:54:30 2017 -0500
+
+    Merge branch 'dev' of https://github.com/khdevito/cs329e-idb into dev
+
+commit 809b3c6a9bfc229c46d59e2b6d14667e9924d439
+Author: Tommy Wilczek <tommywilczek@wireless-10-146-27-164.public.utexas.edu>
+Date:   Tue Mar 21 14:01:19 2017 -0500
+
+    dope ass splash page
+
+commit 87b8ef9d8d72a203e5b2d5838c4ddeb2f50f982b
+Author: Tommy Wilczek <tommywilczek@wireless-10-146-27-164.public.utexas.edu>
+Date:   Tue Mar 21 13:54:32 2017 -0500
+
+    Working on a dope splash page
+
+commit 1560ee0e58161f83d435e0cb83b884a910657a1b
+Author: Tommy Wilczek <tommywilczek@Tommys-MacBook-Air.local>
+Date:   Tue Mar 21 09:34:20 2017 -0500
+
+    Added background pic and messed around with splashpage buttons
+
+commit 07c8aa9972447616ac67ffe050a7efcd1f8df556
+Merge: b37bb36 34da05a
+Author: reshmaahuja <ahuja_reshma@yahoo.com>
+Date:   Tue Mar 21 03:31:00 2017 -0500
+
+    Merge pull request #16 from khdevito/dev
+    
+    practice merge
+
+commit 34da05a65aceefe009e645e73627365ce4f5188f
+Author: Thota Palivela <tpalivela@Thotas-MacBook-Pro.local>
+Date:   Tue Mar 21 03:28:29 2017 -0500
+
+    formatting changes
+
+commit 522ff34177be3c09a267a7b458bbd4b31a0be0c2
+Author: Thota Palivela <tpalivela@Thotas-MacBook-Pro.local>
+Date:   Tue Mar 21 02:08:54 2017 -0500
+
+    commit new changes
+
+commit b37bb360593c1cd47f2aeed51389aba470dcfa76
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-57-162.public.utexas.edu>
+Date:   Mon Mar 20 22:14:16 2017 -0500
+
+    messed around with splash.html
+
+commit dac1642464d99f38c063475a095f9a1fb0ed9ab0
+Merge: f9a5b6f 3259a40
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-57-162.public.utexas.edu>
+Date:   Mon Mar 20 22:13:39 2017 -0500
+
+    Merge branch 'dev' of https://github.com/khdevito/khdevito.github.io
+
+commit 3259a40cb240955ff98d6a83668965ec237c28a2
+Author: Thota Palivela <tpalivela@Thotas-MacBook-Pro.local>
+Date:   Mon Mar 20 21:57:27 2017 -0500
+
+    pushing changes for css file, page3, page4, and page5
+
+commit f9a5b6f8d507474b609448033b8c737054a21efd
+Merge: 3c8da95 cc0065c
+Author: Tommy Wilczek <tommywilczek@wireless-10-145-57-162.public.utexas.edu>
+Date:   Mon Mar 20 20:54:35 2017 -0500
+
+    Merge branch 'dev' of https://github.com/khdevito/khdevito.github.io
+
+commit cc0065c57ea817008cde2171a9ad6221c9ed53b3
+Author: Thota Palivela <tpalivela@wireless-10-147-219-109.public.utexas.edu>
+Date:   Mon Mar 20 20:00:30 2017 -0500
+
+    page5 changes
+
+commit c8b8800c97a436c2823b4725b838359a6392083f
+Author: Thota Palivela <tpalivela@wireless-10-147-219-109.public.utexas.edu>
+Date:   Mon Mar 20 20:00:10 2017 -0500
+
+    page 4 changes
+
+commit 48eff15f67002d9255cf191b577b99b833b97ed6
+Author: Thota Palivela <tpalivela@wireless-10-147-219-109.public.utexas.edu>
+Date:   Mon Mar 20 19:59:47 2017 -0500
+
+    page 3 changes
+
+commit f06cc19f60dd24b8c571721e6c8fa3228a3f322a
+Author: Thota Palivela <tpalivela@wireless-10-147-219-109.public.utexas.edu>
+Date:   Mon Mar 20 19:42:36 2017 -0500
+
+    Bands page changes
+
+commit 96e8b1580c9aa7e1973931d9faf8d79326151df7
+Merge: e59d69f 36294d9
+Author: Thomas Wilczek <tsw674@cs.utexas.edu>
+Date:   Mon Mar 20 17:28:25 2017 -0500
+
+    Merge branch 'dev' of https://github.com/khdevito/cs329e-idb into dev
+
+commit e59d69f95ee8676cf0c626bfd357ccff27215bee
+Author: Thomas Wilczek <tsw674@cs.utexas.edu>
+Date:   Mon Mar 20 17:28:04 2017 -0500
+
+    edited index page
+
+commit 36294d9f8d2028c3f9976a915b781d5d13941df8
+Author: tommywilczek <tommywilczek@utexas.edu>
+Date:   Mon Mar 20 16:17:51 2017 -0500
+
+    Delete .~lock.Master Plan.odt#
+
+commit f2952f39aa3983e1ed446b4d847a9c4fff3dfef8
+Merge: 3c8da95 51fd840
+Author: Kristian DeVito <kristianhdevito@gmail.com>
+Date:   Mon Mar 20 16:15:58 2017 -0500
+
+    Merge branch 'dev' of https://github.com/khdevito/cs329e-idb into dev
+
+commit 51fd840ba695a3383991443b589ea090a316322b
+Merge: 02f7d22 70f1378
+Author: Thomas Wilczek <tsw674@cs.utexas.edu>
+Date:   Mon Mar 20 16:15:36 2017 -0500
+
+    Merge branch 'dev' of https://github.com/khdevito/cs329e-idb into dev
+
+commit 02f7d22faa8ddfa748c46e7b45980f94a87dce9f
+Author: Thomas Wilczek <tsw674@cs.utexas.edu>
+Date:   Mon Mar 20 16:14:07 2017 -0500
+
+    Created Master Plan
+
+commit 70f137854ff3726a0e3d710f69e58c2449aaa886
+Author: tommywilczek <tommywilczek@utexas.edu>
+Date:   Mon Mar 20 15:26:28 2017 -0500
+
+    Update index.html
+
+commit 3c8da95ed52c7d86ca835be046b9ab4a95bc663a
+Author: tommywilczek <tommywilczek@utexas.edu>
+Date:   Mon Mar 20 15:22:55 2017 -0500
+
+    Update CNAME
+
+commit 7ed3e5a384ae7c5db93cc2db9e8ad39b675b6119
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Sun Mar 19 19:18:32 2017 -0500
+
+    Update CNAME
+
+commit 405b0791e658124439dd85989344b0bde363ca4f
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Sun Mar 19 19:17:52 2017 -0500
+
+    Update CNAME
+
+commit 15b643f50a28edd00bd327996866cb5b27c0aa7f
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Sun Mar 19 19:02:23 2017 -0500
+
+    Update and rename index1.html to index.html
+
+commit 7e2da695ca11c2e21b92cc5d021ee5eabd50b65f
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Sun Mar 19 19:02:04 2017 -0500
+
+    Delete index.html
+
+commit d7918e198aba9a521e4c1190197ea8b8c891b5e2
+Merge: 2e57a66 5a7cce6
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Sun Mar 19 18:59:59 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/cs329e-idb
+
+commit 2e57a66572606db3d9d65e191bc116e4475903f9
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Sun Mar 19 18:59:33 2017 -0500
+
+    Refixed filetype error
+
+commit 5a7cce69f245900e56cecfb45dab0134408774a3
+Author: Thomas Wilczek <tsw674@cs.utexas.edu>
+Date:   Sun Mar 19 18:54:55 2017 -0500
+
+    testing index
+
+commit ff71e40be078b7f3b70a0a867bffecbfab9012a3
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Sun Mar 19 18:49:56 2017 -0500
+
+    Update index.html
+
+commit 4accde69f0a45a065a9bdbd6d0483f1d16fc5493
+Merge: b4a7090 a3cf215
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Sun Mar 19 18:48:34 2017 -0500
+
+    Updated file types
+
+commit b4a709062ec9c9972be636f4ac8aafbcbc5ab7b8
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Sun Mar 19 18:47:12 2017 -0500
+
+    Updated file types
+
+commit a3cf215ec131e022120f57e19f2a5f5c4fcf9a49
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Sun Mar 19 18:43:44 2017 -0500
+
+    Update page3.html
+
+commit c412b0da8bf3657124677d94a17ac3410124e8b1
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Sun Mar 19 18:42:37 2017 -0500
+
+    Update index.html
+
+commit dd8c3a361af2fdc2a12f6545e1b80f5ba1f7a091
+Author: russellsherrill72 <russell.sherrill@utexas.edu>
+Date:   Sun Mar 19 18:29:57 2017 -0500
+
+    Update index.html
+
+commit 569eea745c64ab17b202e0407783d2a2ccbe5072
+Merge: 99366bc e806f82
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Sun Mar 19 18:19:36 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/cs329e-idb
+
+commit 99366bc26f2b3870a8c23c1eba4dca43008b9795
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Sun Mar 19 18:19:11 2017 -0500
+
+    Created framework of HTML pages with singular CSS backbone
+    
+    git push
+
+commit e806f825adc12a0dee1a06d0a12e642e96301c9b
+Author: Thomas Wilczek <tsw674@cs.utexas.edu>
+Date:   Sun Mar 19 18:15:42 2017 -0500
+
+    uploaded austin artist names into word doc
+
+commit c45653b0c224d7246d20a15c20813ddeee8b4a2f
+Author: russell sherrill <ras4653@cs.utexas.edu>
+Date:   Sun Mar 19 18:12:48 2017 -0500
+
+    Created HTML structure with one CSS page for all pages.
+
+commit 8623aa60fa893708669ff1c396a2c211d48e5436
+Author: tommywilczek <tommywilczek@utexas.edu>
+Date:   Sun Mar 19 18:08:55 2017 -0500
+
+    Delete index.html
+
+commit a74072efecf5eba59599dc37482b64fdeabd2fa0
+Merge: 0c02387 d394242
+Author: Thomas Wilczek <tsw674@cs.utexas.edu>
+Date:   Sun Mar 19 18:05:20 2017 -0500
+
+    Merge branch 'master' of https://github.com/khdevito/cs329e-idb
+
+commit 0c02387c5aeff0c21c5949cd49bc92827ed6f2f8
+Author: Thomas Wilczek <tsw674@cs.utexas.edu>
+Date:   Sun Mar 19 18:05:00 2017 -0500
+
+    testing connection to github pages
+
+commit d3942423f3baafba650248006fef6ce10ecd842a
+Author: tommywilczek <tommywilczek@utexas.edu>
+Date:   Sun Mar 19 18:02:15 2017 -0500
+
+    Create CNAME
+
+commit 9057f42fcd0ad231e0cbffa78d149f570fb8f6be
+Author: khdevito <khdevito@users.noreply.github.com>
+Date:   Tue Mar 7 19:34:45 2017 -0600
+
+    Initial commit
