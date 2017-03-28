@@ -78,19 +78,37 @@
 			
 			<div class= "tables">
 				<h2>Bands</h2>
-				<table style="width:100%">
+				<table style="width:100%" id="myTable">
 				  <col width="130">
 				  <col width="130">
 				  <col width="130">
 				  <col width="130">
 				  <col width="130">
 				  <tr background-color: #4CAF50>
-				    <th bgcolor= "#C0C0C0", style="width:15%">Band</th>
-				    <th bgcolor= "#C0C0C0", style="width:20%">Members</th>
-				    <th bgcolor= "#C0C0C0", style="width:15%">Year Started</th>
-				    <th bgcolor= "#C0C0C0", style="width:20%">Labels</th>
-				    <th bgcolor= "#C0C0C0", style="width:15%">Website</th>
-				    <th bgcolor= "#C0C0C0", style="width:15%">Top Hits</th>
+				    <th bgcolor= "#C0C0C0", style="width:15%" onclick="sortTable(0)">Band</th>
+				    <th bgcolor= "#C0C0C0", style="width:20%" onclick="sortTable(1)">Members</th>
+				    <th bgcolor= "#C0C0C0", style="width:15%" onclick="sortTable(2)">Year Started</th>
+				    <th bgcolor= "#C0C0C0", style="width:20%" onclick="sortTable(3)">Labels</th>
+				    <th bgcolor= "#C0C0C0", style="width:15%" onclick="sortTable(4)">Website</th>
+				    <th bgcolor= "#C0C0C0", style="width:15%" onclick="sortTable(5)">Top Hits</th>
+				  </tr>
+				  <tr>
+				    <td><a href="biofolder/bio_thesword.html">The Sword</a></td>
+				    <td>John Cronise <br>
+				    Kyle Shutt <br>
+				    Bryan Richie <br>
+				    Santiago Vela III <br></td>
+				    <td>2003</td>   
+				    <td>Razor & Tie <br>
+				    	Napalm <br>
+				    	Cortex <br>
+				    	Kemado <br>
+				    	Rough Trade <br>
+				    	P-Vine <br>
+				    	Impedance <br>
+				    	Toy's Factory <br></td>
+				    <td><a href="http://theswordofficial.com/" style="text-decoration:none">Official Website</a></td>
+				    <td>"Freya"</td>
 				  </tr>
 				  <tr>
 				    <td><a href="biofolder/bio_pushmonkey.html">Push Monkey</a></td>
@@ -121,24 +139,7 @@
 				    <td><a href="http://theblackangels.com/" style="text-decoration:none">Official Website</a></td>
 				    <td>"Young Men Dead"</td>
 				  </tr>
-				  <tr>
-				    <td><a href="biofolder/bio_thesword.html">The Sword</a></td>
-				    <td>John Cronise <br>
-				    Kyle Shutt <br>
-				    Bryan Richie <br>
-				    Santiago Vela III <br></td>
-				    <td>2003</td>   
-				    <td>Razor & Tie <br>
-				    	Napalm <br>
-				    	Cortex <br>
-				    	Kemado <br>
-				    	Rough Trade <br>
-				    	P-Vine <br>
-				    	Impedance <br>
-				    	Toy's Factory <br></td>
-				    <td><a href="http://theswordofficial.com/" style="text-decoration:none">Official Website</a></td>
-				    <td>"Freya"</td>
-				  </tr>
+
 				</table>
 			</div>	
 
@@ -154,5 +155,61 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+<script>
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("myTable");
+  switching = true;
+  //Set the sorting direction to ascending:
+  dir = "asc"; 
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.getElementsByTagName("TR");
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 1; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /*check if the two rows should switch place,
+      based on the direction, asc or desc:*/
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      //Each time a switch is done, increase this count by 1:
+      switchcount ++;      
+    } else {
+      /*If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again.*/
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
 </body>
 </html>
