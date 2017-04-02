@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel = "stylesheet" title = "basic style" type = "text/css" href = "./backbone.css" media = "all"/>
-    <meta charset="utf-8">
+	<title>Jam On!</title>    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -22,7 +22,10 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<title>Jam On!</title>
 </head>
+<body>
+    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -56,72 +59,72 @@
         </div>
         <!-- /.container -->
     </nav>
-  
+	
+	
 	
 
 	<div class = "description">
+
+		<div class = "tables">
 		</head>
 		<body>
-		<div class = "tables">
 
-			<h2>Festivals</h2>
-
-			<table style="width:100%" id="myTable">
+		<h2>Venues</h2>
+			<table style="width:100%", id="myTable">
 			  <col width="130">
 			  <col width="130">
 			  <col width="130">
 			  <col width="130">
 			  <col width="130">
 			  <tr>
-			    <th bgcolor= "#C0C0C0", style="width:14.25%" onclick="sortTable(0)">Festival</th>
-			    <th bgcolor= "#C0C0C0", style="width:14.25%" onclick="sortTable(1)">Time of Year</th>
-			    <th bgcolor= "#C0C0C0", style="width:14.25%" onclick="sortTable(2)">Year Started</th>
-			    <th bgcolor= "#C0C0C0", style="width:14.25%" onclick="sortTable(3)">Website</th>
-			    <th bgcolor= "#C0C0C0", style="width:14.25%" onclick="sortTable(4)">Location</th>
-			    <th bgcolor= "#C0C0C0", style="width:14.25%" onclick="sortTable(5)">Average Ticket Price</th>
-			    <th bgcolor= "#C0C0C0", style="width:14.25%" onclick="sortTable(6)">Duration</th>
+			    <th bgcolor= "#C0C0C0", style="width:22%" onclick="sortTable(0)">Venue</th>
+			    <th bgcolor= "#C0C0C0", style="width:20%" onclick="sortTable(1)">Address</th>
+			    <th bgcolor= "#C0C0C0", style="width:14%" onclick="sortTable(2)">Website</th>
+			    <th bgcolor= "#C0C0C0", style="width:21%" onclick="sortTable(3)">Contact Information</th>
+			    <th bgcolor= "#C0C0C0", style="width:13%" onclick="sortTable(4)">Age Restriction</th>
+			    <th bgcolor= "#C0C0C0", style="width:9%" onclick="sortTable(5)">Cover</th>
 			  </tr>
 			  <tr>
-			    <td><a href="festival_folder/bio_acl.html">Austin City Limits</a></td>
-			    <td>Fall</td>
-			    <td>2002</td>
-			    <td><a href="https://www.aclfestival.com/" style="text-decoration:none">Official Website</a></td>     
-			    <td>Zilker Park - Austin, TX</td>
-			    <td>$250/ 3 day pass</td>
-			    <td>Two weekends</td>
+			    <td><a href="biofolder/bio_holeinwall.html">Hole in the Wall</a></td>
+			    <td>2538 Guadalupe St, Austin, TX 78705</td>
+			    <td><a href="http://www.holeinthewallaustin.com/" style="text-decoration:none">Official Website</a></td>   
+			    <td>holeinthewallevents@gmail.com</td>
+			    <td>21+</td>
+			    <td>None</td>
 			  </tr>
 			  <tr>
-			    <td><a href="festival_folder/bio_fff.html">Fun Fun Fun Fest</a></td>
-			    <td>Fall</td>
-			    <td>2006</td>
-			    <td><a href="https://funfunfunfest.com/" style="text-decoration:none">Official Website</a></td>     
-			    <td>Auditorium Shores - Austin, TX</td>
-			    <td>$200/ 3 day pass</td>
-			    <td>3 days</td>
+			    <td><a href="biofolder/bio_skylarklounge.html">Skylark Lounge</a></td>
+			    <td>2039 Airport Blvd, Austin, TX 78722</td>
+			    <td><a href="http://skylarkaustin.com/" style="text-decoration:none">Official Website</a></td>
+			    <td>(512) 730-0759</td>     
+			    <td>21+</td>
+			    <td>None</td>
 			  </tr>
 			  <tr>
-			    <td><a href="festival_folder/bio_sxsw.html">SXSW</a></td>
-			    <td>Spring</td>
-			    <td>1987</td>   
-			    <td><a href="https://www.sxsw.com/" style="text-decoration:none">Official Website</a></td>
-			    <td>Austin, TX</td>
-			    <td>free - $1,500+ for badges</td>
-			    <td>8 days</td>
+			    <td><a href="biofolder/bio_spiderhouse.html">Spider House Cafe</a></td>
+			    <td>2908 Fruth St, Austin, TX 78705</td>
+			    <td><a href="https://spiderhouse.com/" style="text-decoration:none">Official Website</a></td>
+			    <td>(512) 480-9562</td>     
+			    <td>None</td>
+			    <td>None</td>
 			  </tr>
-			</table>	
-		</div>	
-		
-	</div>
-		<div style="margin-top: 4.5%; margin-left: 10%; color: black", class="well">
-		<p><i>Click the title of each column to sort alphabetically</i></p>
-		<p style="font-size: .7em"><i>Clicking once will sort A-Z, clicking twice will sort Z-A</i></p>
+			</table>		
 		</div>
+	</div>
+
+	</div>
+
+
+    <div style="margin-top: 4.5%; margin-left: 10%; color: black", class="well">
+    <p><i>Click the title of each column to sort alphabetically</i></p>
+    <p style="font-size: .7em"><i>Clicking once will sort A-Z, clicking twice will sort Z-A</i></p>
+    </div>
 
     <div class="container">
       <ul class="pagination">
-        <li class="active"><a href="#">1</a></li>
-        <li><a href="festivalsP2.html">2</a></li>
-        <li><a href="festivalsP3.html">3</a></li>
+        <li><a href="venues.html">1</a></li>
+        <li><a href="venuesP2.html">2</a></li>
+        <li class="active"><a href="#">3</a></li>
       </ul>
     </div>
 
@@ -187,9 +190,6 @@ function sortTable(n) {
     }
   }
 }
-</script>	
-
-	
-
+</script>
 </body>
 </html>
