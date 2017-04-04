@@ -42,16 +42,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav" style= "width:302px; background-color:#222222; border:none;">
                     <li>
-                        <a href="page2.html">About</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="./page3.html">Bands</a>
+                        <a href="./bands.html">Bands</a>
                     </li>
                     <li>
-                        <a href="./page4.html">Venues</a>
+                        <a href="./venues.html">Venues</a>
                     </li>
                     <li>
-                        <a href="./page5.html">Festivals</a>
+                        <a href="./festivals.html">Festivals</a>
                     </li>
                 </ul>
             </div>
@@ -70,19 +70,19 @@
 		<body>
 
 		<h2>Venues</h2>
-			<table style="width:100%">
+			<table style="width:100%", id="myTable">
 			  <col width="130">
 			  <col width="130">
 			  <col width="130">
 			  <col width="130">
 			  <col width="130">
 			  <tr>
-			    <th bgcolor= "#C0C0C0", style="width:22%">Venue</th>
-			    <th bgcolor= "#C0C0C0", style="width:20%">Address</th>
-			    <th bgcolor= "#C0C0C0", style="width:14%">Website</th>
-			    <th bgcolor= "#C0C0C0", style="width:21%">Contact Information</th>
-			    <th bgcolor= "#C0C0C0", style="width:13%">Age Restriction</th>
-			    <th bgcolor= "#C0C0C0", style="width:9%">Cover</th>
+			    <th bgcolor= "#C0C0C0", style="width:22%" onclick="sortTable(0)">Venue</th>
+			    <th bgcolor= "#C0C0C0", style="width:20%" onclick="sortTable(1)">Address</th>
+			    <th bgcolor= "#C0C0C0", style="width:14%" onclick="sortTable(2)">Website</th>
+			    <th bgcolor= "#C0C0C0", style="width:21%" onclick="sortTable(3)">Contact Information</th>
+			    <th bgcolor= "#C0C0C0", style="width:13%" onclick="sortTable(4)">Age Restriction</th>
+			    <th bgcolor= "#C0C0C0", style="width:9%" onclick="sortTable(5)">Cover</th>
 			  </tr>
 			  <tr>
 			    <td><a href="biofolder/bio_holeinwall.html">Hole in the Wall</a></td>
@@ -112,18 +112,84 @@
 		</div>
 	</div>
 
-	<div class = "footer">
-		<div class = "footer-text">
-			<a href="./splash.html">Home</a> |
-			<a href="./page2.html">About</a> |
-			<a href="./page3.html">Bands</a> |
-			<a href="./page4.html">Venues</a> |
-			<a href="./page5.html">Festivals</a>
-			<br>
-			<br>
-			<em></em>
-		</div>
 	</div>
 
+
+    <div style="margin-top: 4.5%; margin-left: 10%; color: black", class="well">
+    <p><i>Click the title of each column to sort alphabetically</i></p>
+    <p style="font-size: .7em"><i>Clicking once will sort A-Z, clicking twice will sort Z-A</i></p>
+    </div>
+
+    <div class="container">
+      <ul class="pagination">
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="venuesP2.html">2</a></li>
+        <li><a href="venuesP3.html">3</a></li>
+      </ul>
+    </div>
+
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+<script>
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("myTable");
+  switching = true;
+  //Set the sorting direction to ascending:
+  dir = "asc"; 
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.getElementsByTagName("TR");
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 1; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /*check if the two rows should switch place,
+      based on the direction, asc or desc:*/
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      //Each time a switch is done, increase this count by 1:
+      switchcount ++;      
+    } else {
+      /*If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again.*/
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
 </body>
 </html>

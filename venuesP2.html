@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" title = "basic style" type = "text/css" href = "./backbone.css" media = "all"/>
+	<title>Jam On!</title>    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jam On!</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<title>Jam On!</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="font-size: 4em" href="index.html">Jam Austin</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" style= "width:302px; background-color:#222222; border:none;">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./bands.html">Bands</a>
+                    </li>
+                    <li>
+                        <a href="./venues.html">Venues</a>
+                    </li>
+                    <li>
+                        <a href="./festivals.html">Festivals</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+	
+	
+
+	<div class = "description">
+
+		<div class = "tables">
+		</head>
+		<body>
+
+		<h2>Venues</h2>
+			<table style="width:100%", id="myTable">
+			  <col width="130">
+			  <col width="130">
+			  <col width="130">
+			  <col width="130">
+			  <col width="130">
+			  <tr>
+			    <th bgcolor= "#C0C0C0", style="width:22%" onclick="sortTable(0)">Venue</th>
+			    <th bgcolor= "#C0C0C0", style="width:20%" onclick="sortTable(1)">Address</th>
+			    <th bgcolor= "#C0C0C0", style="width:14%" onclick="sortTable(2)">Website</th>
+			    <th bgcolor= "#C0C0C0", style="width:21%" onclick="sortTable(3)">Contact Information</th>
+			    <th bgcolor= "#C0C0C0", style="width:13%" onclick="sortTable(4)">Age Restriction</th>
+			    <th bgcolor= "#C0C0C0", style="width:9%" onclick="sortTable(5)">Cover</th>
+			  </tr>
+			  <tr>
+			    <td><a href="biofolder/bio_stubbs.html">Stubbs BBQ</a></td>
+			    <td>801 Red River Austin, TX 78701</td>
+			    <td><a href="http://www.stubbsaustin.com/" style="text-decoration:none">Official Website</a></td>   
+			    <td>social@stubbsaustin.com</td>
+			    <td>None</td>
+			    <td>None</td>
+			  </tr>
+			  <tr>
+			    <td><a href="biofolder/bio_emos.html">Emo's Austin</a></td>
+			    <td>2015 E Riverside Dr, Austin TX 78741</td>
+			    <td><a href="http://www.emosaustin.com/" style="text-decoration:none">Official Website</a></td>
+			    <td>info@emosaustin.com</td>     
+			    <td>18+</td>
+			    <td>None</td>
+			  </tr>
+			  <tr>
+			    <td><a href="biofolder/bio_mohawk.html">The Mohawk</a></td>
+			    <td>10th and Red River in Austin, TX</td>
+			    <td><a href="https://mohawkaustin.com/about" style="text-decoration:none">Official Website</a></td>
+			    <td>taylor@mohawkaustin.com</td>     
+			    <td>None</td>
+			    <td>None</td>
+			  </tr>
+			</table>		
+		</div>
+	</div>
+
+	</div>
+
+
+    <div style="margin-top: 4.5%; margin-left: 10%; color: black", class="well">
+    <p><i>Click the title of each column to sort alphabetically</i></p>
+    <p style="font-size: .7em"><i>Clicking once will sort A-Z, clicking twice will sort Z-A</i></p>
+    </div>
+
+    <div class="container">
+      <ul class="pagination">
+        <li><a href="venues.html">1</a></li>
+        <li class="active"><a href="#">2</a></li>
+        <li><a href="venuesP3.html">3</a></li>
+      </ul>
+    </div>
+
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+<script>
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("myTable");
+  switching = true;
+  //Set the sorting direction to ascending:
+  dir = "asc"; 
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.getElementsByTagName("TR");
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 1; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /*check if the two rows should switch place,
+      based on the direction, asc or desc:*/
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch= true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      //Each time a switch is done, increase this count by 1:
+      switchcount ++;      
+    } else {
+      /*If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again.*/
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>
