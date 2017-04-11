@@ -33,6 +33,14 @@ def venues():
 def festivals():
     return render_template('festivals.html')
 
+@app.route('/festivalsP2')
+def festivalsP2():
+    return render_template('festivalsP2.html')
+
+@app.route('/festivalsP3')
+def festivalsP3():
+    return render_template('festivalsP3.html')
+
 @app.route('/page3')
 def page3():
     dict = {'string1' : 'Testing.', 'string2' : 'Hello, World!'}
