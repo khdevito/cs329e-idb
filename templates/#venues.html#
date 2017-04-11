@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel = "stylesheet" title = "basic style" type = "text/css" href ={{ url_for('static', filename='backbone.css') }} media = "all"/>
-    <meta charset="utf-8">
+<link rel = "stylesheet" title = "basic style" type = "text/css" href = "./backbone.css" media = "all"/>
+	<title>Jam On!</title>    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -11,10 +11,10 @@
     <title>Jam On!</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href={{ url_for('static', filename='bootstrap.min.css') }} rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href=href={{ url_for('static', filename='full-slider.css') }} rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,19 +23,10 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<title>Jam On!</title>
-	<style type="text/css">
-    h2 a:link, h2 a:visited {
-        color: powderblue;
-    }
-    h2 a:hover, h2 a:active {
-        color: #1fdba9;
-        text-decoration: none;
-    }
-</style>
 </head>
 <body>
     <!-- Navigation -->
-   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -68,102 +59,72 @@
         </div>
         <!-- /.container -->
     </nav>
-
+	
+	
+	
 
 	<div class = "description">
-			
-			
-			<body>
-        
-      <!-- breaklines to move table down -->
-      <br>
-      <br>
-      <br>
-      <br>
 
-			
-			<div class= "tables">
-				<h2>Bands</h2>
-				<table style="width:100%" id="myTable">
-				  <col width="130">
-				  <col width="130">
-				  <col width="130">
-				  <col width="130">
-				  <col width="130">
-				  <tr background-color: #4CAF50>
-				    <th bgcolor= "#C0C0C0", style="width:15%" onclick="sortTable(0)">Band</th>
-				    <th bgcolor= "#C0C0C0", style="width:20%" onclick="sortTable(1)">Members</th>
-				    <th bgcolor= "#C0C0C0", style="width:15%" onclick="sortTable(2)">Year Started</th>
-				    <th bgcolor= "#C0C0C0", style="width:20%" onclick="sortTable(3)">Labels</th>
-				    <th bgcolor= "#C0C0C0", style="width:15%" onclick="sortTable(4)">Website</th>
-				    <th bgcolor= "#C0C0C0", style="width:15%" onclick="sortTable(5)">Top Hits</th>
-				  </tr>
-				  <tr>
-				    <td><a href="biofolder/bio_thesword.html">The Sword</a></td>
-				    <td>John Cronise <br>
-				    Kyle Shutt <br>
-				    Bryan Richie <br>
-				    Santiago Vela III <br></td>
-				    <td>2003</td>   
-				    <td>Razor & Tie <br>
-				    	Napalm <br>
-				    	Cortex <br>
-				    	Kemado <br>
-				    	Rough Trade <br>
-				    	P-Vine <br>
-				    	Impedance <br>
-				    	Toy's Factory <br></td>
-				    <td><a href="http://theswordofficial.com/" style="text-decoration:none">Official Website</a></td>
-				    <td>"Freya"</td>
-				  </tr>
-				  <tr>
-				    <td><a href="biofolder/bio_pushmonkey.html">Push Monkey</a></td>
-				    <td>Tony Park <br>
-				    Darwin Keys <br>
-				    Will Hoffman <br>
-				    Pat Fogarty <br>
-				    Howie Behrens <br>
-				    </td>
-				    <td>1994</td>
-				    <td>Sector 2 Records <br> 
-				    	Arista Records <br>
-				    	Trespass Records</td>     
-				    <td><a href="https://www.facebook.com/pushmonkey.official/" style="text-decoration:none">Official Facebook Page</a></td>
-				    <td>"Handslide"</td>
-				  </tr>
-				  <tr>
-				    <td><a href="biofolder/bio_theblackangels.html">The Black Angels</a></td>
-				    <td>Stephanie Bailey <br>
-				    Christian Bland <br>
-				    Alex Maas <br>
-				    Kyle Hunt <br>
-				    Jake Garcia <br>
-				    </td>
-				    <td>2004</td>
-				    <td>Light in the Attic <br>
-				    	Blue Horizon</td>     
-				    <td><a href="http://theblackangels.com/" style="text-decoration:none">Official Website</a></td>
-				    <td>"Young Men Dead"</td>
-				  </tr>
-				</table>
-			</div>	
+		<div class = "tables">
+		</head>
+		<body>
+
+		<h2>Venues</h2>
+			<table style="width:100%", id="myTable">
+			  <col width="130">
+			  <col width="130">
+			  <col width="130">
+			  <col width="130">
+			  <col width="130">
+			  <tr>
+			    <th bgcolor= "#C0C0C0", style="width:22%" onclick="sortTable(0)">Venue</th>
+			    <th bgcolor= "#C0C0C0", style="width:20%" onclick="sortTable(1)">Address</th>
+			    <th bgcolor= "#C0C0C0", style="width:14%" onclick="sortTable(2)">Website</th>
+			    <th bgcolor= "#C0C0C0", style="width:21%" onclick="sortTable(3)">Contact Information</th>
+			    <th bgcolor= "#C0C0C0", style="width:13%" onclick="sortTable(4)">Age Restriction</th>
+			    <th bgcolor= "#C0C0C0", style="width:9%" onclick="sortTable(5)">Cover</th>
+			  </tr>
+			  <tr>
+			    <td><a href="biofolder/bio_holeinwall.html">Hole in the Wall</a></td>
+			    <td>2538 Guadalupe St, Austin, TX 78705</td>
+			    <td><a href="http://www.holeinthewallaustin.com/" style="text-decoration:none">Official Website</a></td>   
+			    <td>holeinthewallevents@gmail.com</td>
+			    <td>21+</td>
+			    <td>None</td>
+			  </tr>
+			  <tr>
+			    <td><a href="biofolder/bio_skylarklounge.html">Skylark Lounge</a></td>
+			    <td>2039 Airport Blvd, Austin, TX 78722</td>
+			    <td><a href="http://skylarkaustin.com/" style="text-decoration:none">Official Website</a></td>
+			    <td>(512) 730-0759</td>     
+			    <td>21+</td>
+			    <td>None</td>
+			  </tr>
+			  <tr>
+			    <td><a href="biofolder/bio_spiderhouse.html">Spider House Cafe</a></td>
+			    <td>2908 Fruth St, Austin, TX 78705</td>
+			    <td><a href="https://spiderhouse.com/" style="text-decoration:none">Official Website</a></td>
+			    <td>(512) 480-9562</td>     
+			    <td>None</td>
+			    <td>None</td>
+			  </tr>
+			</table>		
+		</div>
+	</div>
 
 	</div>
-		<br>
 
-		<br>
-	
-	    </div>
-		<div style="margin-top: 1.75%; margin-left: 10%; color: black", class="well">
-		<p><i>Click the title of each column to sort alphabetically</i></p>
-		<p style="font-size: .7em"><i>Clicking once will sort A-Z, clicking twice will sort Z-A</i></p>
-		</div>
 
-    <div class="container" style="margin-top:580px; margin-left:173px; ">
+    <div style="margin-top: 4.5%; margin-left: 10%; color: black", class="well">
+    <p><i>Click the title of each column to sort alphabetically</i></p>
+    <p style="font-size: .7em"><i>Clicking once will sort A-Z, clicking twice will sort Z-A</i></p>
+    </div>
+
+    <div class="container" style="margin-top:105px; margin-left:174px;">
       <ul class="pagination" style="width:102px;">
-        <li class="active"><a href="#">1</a></li>
-        <li><a href="bandsP2.html">2</a></li>
-        <li><a href="bandsP3.html">3</a></li>
+        <li class="active"><a href="venues.html">1</a></li>
+        <li><a href="venuesP2.html">2</a></li>
+        <li><a href="venuesP3.html">3</a></li>
       </ul>
     </div>
 
