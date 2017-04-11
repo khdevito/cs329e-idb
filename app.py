@@ -17,9 +17,21 @@ http://localhost:5000/index
 def index():
     return render_template('index.html') # located in templates/
 
-@app.route('/page2')
-def page2():
-    return render_template('page2.html')
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/bands')
+def bands():
+    return render_template('bands.html')
+
+@app.route('/venues')
+def venues():
+    return render_template('venues.html')
+
+@app.route('/festivals')
+def festivals():
+    return render_template('festivals.html')
 
 @app.route('/page3')
 def page3():
