@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel = "stylesheet" title = "basic style" type = "text/css" href = "./backbone.css" media = "all"/>
+<link rel = "stylesheet" title = "basic style" type = "text/css" href = {{ url_for('static', filename='backbone.css') }} media = "all"/>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,10 +11,10 @@
     <title>Jam On!</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href={{ url_for('static', filename='bootstrap.min.css') }} rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/full-slider.css" rel="stylesheet">
+    <link href=href={{ url_for('static', filename='full-slider.css') }} rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,22 +45,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" style="font-size: 4em" href="index.html">Jam Austin</a>
+                <a class="navbar-brand" style="font-size: 4em" href={{ url_for('index') }}>Jam Austin</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav" style= "width:302px; background-color:#222222; border:none;">
                     <li>
-                        <a href="about.html">About</a>
+                        <a href={{ url_for('about') }}>About</a>
                     </li>
                     <li>
-                        <a href="./bands.html">Bands</a>
+                        <a href={{ url_for('bands') }}>Bands</a>
                     </li>
                     <li>
-                        <a href="./venues.html">Venues</a>
+                        <a href={{ url_for('venues') }}>Venues</a>
                     </li>
                     <li>
-                        <a href="./festivals.html">Festivals</a>
+                        <a href={{ url_for('festivals') }}>Festivals</a>
                     </li>
                 </ul>
             </div>
