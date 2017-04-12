@@ -12,10 +12,10 @@
     <title>Urban Music Festival</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../biofolder/css/bootstrap.min.css" rel="stylesheet">
+    <link href={{ url_for('static', filename='bootstrap.min.css') }} rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../biofolder/css/one-page-wonder.css" rel="stylesheet">
+    <link href={{ url_for('static', filename='one-page-wonder.css') }} rel="stylesheet"> 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,22 +39,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" style="font-size: 4em" href="../index.html">Jam Austin</a>
+                <a class="navbar-brand" style="font-size: 4em" href={{ url_for('index') }}>Jam Austin</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" style= "width:302px; background-color:#222222; border:none;">
                     <li>
-                        <a href="../about.html">About</a>
+                        <a href={{ url_for('about') }}>About</a>
                     </li>
                     <li>
-                        <a href="../bands.html">Bands</a>
+                        <a href={{ url_for('bands') }}>Bands</a>
                     </li>
                     <li>
-                        <a href="../venues.html">Venues</a>
+                        <a href={{ url_for('venues') }}>Venues</a>
                     </li>
                     <li>
-                        <a href="../festivals.html">Festivals</a>
+                        <a href={{ url_for('festivals') }}>Festivals</a>
                     </li>
                 </ul>
             </div>
@@ -79,7 +79,7 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="umf3.jpg">
+            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="../../static/images/umf3.jpg">
             <h2 class="featurette-heading">About
             <span class="text-muted">Urban Music Fest</span>
             </h2>
@@ -93,7 +93,7 @@
 
         <!-- Second Featurette -->
         <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" height = "400" width="400" src="umf2.jpg" >
+            <img class="featurette-image img-circle img-responsive pull-left" height = "400" width="400" src="../../static/images/umf2.jpg" >
             <h2 class="featurette-heading">Time of Year
                 <span class="text-muted">& Avg. Ticket Price</span>
             </h2>
@@ -108,7 +108,7 @@
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="umf3.png">
+            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="../../static/images/umf3.png">
             <h2 class="featurette-heading">Past Headliners
                 <span class="text-muted">That you'll love</span>
             </h2>
@@ -126,7 +126,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Content from <a href="https://en.wikipedia.org/wiki/Urban_Music_Festival">Urban Music Fest's Wikipedia Page</a> and <a href="http://urbanmusicfest.com/">UrbanMusicFest.com</a></p>
+                    <p>Content from <a href={{ url_for('static', filename='https://en.wikipedia.org/wiki/Urban_Music_Festival') }}>Urban Music Fest's Wikipedia Page</a> and <a href="http://urbanmusicfest.com/">UrbanMusicFest.com</a></p>
                     <p>Images from <a href="https://www.google.com/search?q=Urban+Music+Festival&rlz=1C5CHFA_enUS727US727&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiTv8r1iZHTAhUJ0IMKHZrqCS8Q_AUICCgD&biw=1256&bih=676">Google Images</a> </p>
                 </div>
             </div>
@@ -136,10 +136,10 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../../static/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../../static/js/bootstrap.min.js"></script>
 
 </body>
 
