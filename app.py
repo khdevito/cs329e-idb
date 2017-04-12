@@ -25,9 +25,25 @@ def about():
 def bands():
     return render_template('bands.html')
 
+@app.route('/bandsP2')
+def bandsP2():
+    return render_template('bandsP2.html')
+
+@app.route('/bandsP3')
+def bandsP3():
+    return render_template('bandsP3.html')
+
 @app.route('/venues')
 def venues():
     return render_template('venues.html')
+
+@app.route('/venuesP2')
+def venuesP2():
+    return render_template('venuesP2.html')
+
+@app.route('/venuesP3')
+def venuesP3():
+    return render_template('venuesP3.html')
 
 @app.route('/festivals')
 def festivals():
