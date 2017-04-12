@@ -57,10 +57,9 @@ def festivalsP2():
 def festivalsP3():
     return render_template('festivalsP3.html')
 
-@app.route('/page3')
-def page3():
-    dict = {'string1' : 'Testing.', 'string2' : 'Hello, World!'}
-    return render_template('page3.html', strings = dict) # Example of argument passing to HTML template
+@app.route('/bio/<bio_name>')
+def bio(bio_name):
+    return render_template('biofolder/bio_' + bio_name + '.html')
 
 if __name__ == '__main__':
     app.run() # Run application
