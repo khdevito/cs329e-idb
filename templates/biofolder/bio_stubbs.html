@@ -12,10 +12,10 @@
     <title>Stubbs BBQ</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href={{ url_for('static', filename='bootstrap.min.css') }} rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link href={{ url_for('static', filename='one-page-wonder.css') }} rel="stylesheet"> 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,22 +39,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" style="font-size: 4em" href="../index.html">Jam Austin</a>
+                <a class="navbar-brand" style="font-size: 4em" href={{ url_for('index') }}>Jam Austin</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" style= "width:302px; background-color:#222222; border:none;">
                     <li>
-                        <a href="../about.html">About</a>
+                        <a href={{ url_for('about') }}>About</a>
                     </li>
                     <li>
-                        <a href="../bands.html">Bands</a>
+                        <a href={{ url_for('bands') }}>Bands</a>
                     </li>
                     <li>
-                        <a href="../venues.html">Venues</a>
+                        <a href={{ url_for('venues') }}>Venues</a>
                     </li>
                     <li>
-                        <a href="../festivals.html">Festivals</a>
+                        <a href={{ url_for('festivals') }}>Festivals</a>
                     </li>
                 </ul>
             </div>
@@ -79,7 +79,7 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="img/aboutstubbs.jpg">
+            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="../../static/img/aboutstubbs.jpg">
             <h2 class="featurette-heading">About
             <span class="text-muted">Stubbs BBQ</span>
             </h2>
@@ -93,7 +93,7 @@
         <!-- middle Featurette -->
 
           <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-right" height = "400" width="400" src="img/austinpic.jpg" >
+            <img class="featurette-image img-circle img-responsive pull-right" height = "400" width="400" src="../../static/img/austinpic.jpg" >
             <h2 class="featurette-heading">What Local Artists 
                 <span class="text-muted">Have Played Here?</span>
             </h2>
@@ -105,7 +105,7 @@
         </div> 
         <!-- Second Featurette -->
         <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" height = "400" width="400" src="img/stubbsfood.jpg" >
+            <img class="featurette-image img-circle img-responsive pull-left" height = "400" width="400" src="../../static/img/stubbsfood.jpg" >
             <h2 class="featurette-heading">Food
                 <span class="text-muted">Menu</span>
             </h2>
@@ -141,7 +141,7 @@
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="img/livestubbs.jpg">
+            <img class="featurette-image img-circle img-responsive pull-right" height = "500" width="500" src="../../static/img/livestubbs.jpg">
             <h2 class="featurette-heading">Upcoming Events
                 <span class="text-muted">That you'll love</span>
             </h2>
@@ -172,10 +172,10 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../../static/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../../static/js/bootstrap.min.js"></script>
 
 </body>
 
