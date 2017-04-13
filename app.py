@@ -62,4 +62,4 @@ def bio(bio_name):
     return render_template('biofolder/bio_' + bio_name + '.html')
 
 if __name__ == '__main__':
-    app.run() # Run application
+    app.run('138.197.91.16','80') # Run application
